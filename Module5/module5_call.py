@@ -1,4 +1,6 @@
-from module5_mod import NumberStorage
+#Importing class then running the same logic
+
+from module5_mod import NumberStorage #import class from other file
 
 
 def main():

@@ -1,12 +1,14 @@
+#Modular design
+
 class NumberStorage:
     def __init__(self):
-        self.numbers = []
+        self.numbers = [] #create a list
 
     def insert(self, number):
-        self.numbers.append(number)
+        self.numbers.append(number) #add inputs to the list
 
     def search(self, x):
-        for index, number in enumerate(self.numbers, start=1):
+        for index, number in enumerate(self.numbers, start=1): #loop checking the condition and returning final value
             if number == x:
                 return index
         return -1
