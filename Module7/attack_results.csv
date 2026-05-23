@@ -1,0 +1,5 @@
+Method,Epsilon,Metric,Result (%)
+No Attack,0.0,Recognition Rate,98.6
+FGSM,0.2,Attack Success Rate,6.876267748478702
+I-FGSM / PGD,0.2,Attack Success Rate,10.273833671399593
+Momentum I-FGSM,0.2,Attack Success Rate,9.979716024340771
